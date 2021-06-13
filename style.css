@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book_header {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 221, 221);
+    border-bottom-left-radius: 200px;
+}
+
+.book-header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-header-logo {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+}
+
+.book-header-logo img {
+    object-fit: contain;
+}
+
+.book-nav-section {
+    padding: 10px 100px;
+}
+
+.book-nav-section a {
+    margin: 40px;
+    cursor: pointer;
+}
+
+.book-headerBody {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.book-first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-first-section h2 {
+    font-size: 40px;
+}
+
+.book-first-section p {
+    margin: 10px 0;
+}
+
+.book-searchForm {
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 7px;
+    margin: 10px;
+    width: 64%;
+    display: flex;
+}
+
+.book-searchForm input {
+    flex: 1;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 5px;
+    background: none;
+}
+
+.book-searchForm button {
+    padding: 15px 40px;
+    margin: 0;
+    border: none;
+    border-radius: 50px;
+    color: rgb(165, 29, 51);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(243, 167, 180);
+    transition: all 0.25s ease-in-out 0%;
+}
+
+.book-searchForm button:hover {
+    background-color: rgb(230, 94, 116);
+    cursor: pointer;
+    color: rgb(243, 243, 243);
+}
+
+.book-second-section {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.book-second-section img {
+    filter: drop-shadow(10px 20px 10px #222);
+}
